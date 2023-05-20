@@ -19,7 +19,7 @@ public class ResuableMethods {
         String tarihEtiketi = "TumSayfa"+ldt.getYear()+ldt.getMonthValue()
                 +ldt.getDayOfMonth()+ldt.getHour()+ldt.getMinute()+ldt.getSecond()+".png";
         String path= "target/ekranResimleri/"+tarihEtiketi;
-        File tumSayfaFotograf= new File(path);
+        File tumSayfaFotograf= new File(path);   //kaydedecegımız dosya olusturduk
 
         File geciciResim = tss.getScreenshotAs(OutputType.FILE);
 
